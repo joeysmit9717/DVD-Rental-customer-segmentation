@@ -9,11 +9,18 @@ What this folder contains
 This package documents a customer clustering analysis on a
 per-customer rental dataset (ratings, spend, and genre mix) based on a popular dataset; DVD rental database (dvdrental).
 
--README.md           - description of individual files and their usage
--DVDrental.pdf       - PDF findings report 
--DatasetPeruCustomerAnalysis.py            - python file used to generate plots in the report. Requires DatasetPerCustomerTable.csv 
--DatasetPerCustomer.sql          - SQL code for creating the DatasetPerCustomerTable.csv file. Requires the DVD rental database .tar file. (not included in this package)
+README.md           - description of individual files and their usage
+DVDrental.pdf       - PDF findings report 
+DatasetPeruCustomerAnalysis.py            - python file used to generate plots in the report. Requires DatasetPerCustomerTable.csv 
+DatasetPerCustomer.sql          - SQL code for creating the DatasetPerCustomerTable.csv file. Requires the DVD rental database .tar file. (not included in this package)
 
+## Project files
+
+- **DVDrental.pdf** – PDF report containing the project findings.
+- **DatasetPeruCustomerAnalysis.py** – Python script used to generate the plots presented in the report. Requires `DatasetPerCustomerTable.csv`.
+- **DatasetPerCustomer.sql** – SQL script used to create `DatasetPerCustomerTable.csv`. Requires the DVD Rental database (`.tar` file), which is not included in this repository.
+- **DatasetPerCustomerTable.csv** – Processed customer dataset used as input for the Python analysis.
+  
 What the analysis does
 ----------------------
 1. Load one row per customer (599 customers, 18 features).
