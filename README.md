@@ -4,6 +4,12 @@ Customer segmentation using PostgreSQL, K-Means clustering and Principal Compone
 Customer Segmentation with KMeans
 =================================
 
+Key Results & Visualizations
+
+PCA – Customer Segmentation
+
+The PCA visualization provides a two-dimensional representation of the customer segments identified through K-Means clustering. It illustrates the degree of separation and overlap between the identified clusters.
+
 What this folder contains
 -------------------------
 This package documents a customer clustering analysis on a
