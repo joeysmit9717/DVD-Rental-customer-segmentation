@@ -6,16 +6,13 @@ Customer Segmentation with KMeans
 
 What this folder contains
 -------------------------
-This portfolio package documents a customer clustering analysis on a
-per-customer rental dataset (ratings, spend, and genre mix).
+This package documents a customer clustering analysis on a
+per-customer rental dataset (ratings, spend, and genre mix) based on a popular dataset; DVD rental database (dvdrental).
 
-  README.txt          - this file
-  report.tex          - LaTeX source for the PDF findings report (Overleaf)
-  figures/            - PNG plots embedded by report.tex
-
-  Upstream analysis script (one folder up from portfolio/):
-  DatasetPerCustomerAnalysis.py
-  DatasetPerCustomerTable.csv
+  README.md           - description of individual files and their usage
+  DVDrental.pdf       - PDF findings report 
+  DatasetPeruCustomerAnalysis.py            - python file used to generate plots in the report. Requires DatasetPerCustomerTable.csv 
+  DatasetPerCustomer.sql          - SQL code for creating the DatasetPerCustomerTable.csv file. Requires the DVD rental database .tar file. (not included in this package)
 
 What the analysis does
 ----------------------
@@ -29,7 +26,7 @@ What the analysis does
    a standardized profile heatmap, and silhouette diagrams (also k = 5
    for contrast).
 
-Plots in figures/
+Plots the python file generates:
 -----------------
   elbow_silhouette.png      Elbow (inertia) + silhouette vs k
   algorithm_comparison.png  Silhouette by algorithm
@@ -41,30 +38,10 @@ Plots in figures/
   silhouette_best_k.png     Per-sample silhouette for chosen k
   silhouette_k5.png         Per-sample silhouette for k = 5
 
-How to regenerate the plots
----------------------------
-From the project root (where DatasetPerCustomerAnalysis.py lives):
-
-  set MPLBACKEND=Agg
-  python DatasetPerCustomerAnalysis.py
-
-On PowerShell:
-
-  $env:MPLBACKEND='Agg'
-  python DatasetPerCustomerAnalysis.py
-
-Figures are written to this folder under figures/. Set SAVE_FIGURES=0 to
-skip saving PNGs.
-
-How to build the PDF report (Overleaf)
---------------------------------------
-1. Create a new Overleaf project.
-2. Upload report.tex and the figures/ folder (keep the same names).
-3. Compile. Download the PDF for your portfolio / applications.
 
 Requirements
 ------------
-Python 3.x with: pandas, numpy, matplotlib, scipy, scikit-learn
+Python 3.x with: pandas, numpy, matplotlib, scipy, scikit-learn, DatasetPerCustomerTable.csv (obtained from running the SQL file combined with the DVD rental .tar file)
 
 Key result snapshot (from last run)
 -----------------------------------
