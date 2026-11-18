@@ -53,4 +53,4 @@ Key result snapshot (from last run)
 - **Best silhouette**: ~0.059 (soft / overlapping segments)
 - **GMM lowest BIC**: k = 2
 - **Stand-out segment**: Cluster 9 — high ratings (4.74), high spend ($1959),
-- ** ~11% of customers**; sports / animation / scifi lean.
+- **11% of customers**; sports / animation / scifi lean.
