@@ -11,7 +11,7 @@ per-customer rental dataset (ratings, spend, and genre mix) based on a popular d
 
 ## Project files
 
-- **README.md           - description of individual files and their usage
+- **README.md**  - description of individual files and their usage
 - **DVDrental.pdf** – PDF report containing the project findings.
 - **DatasetPeruCustomerAnalysis.py** – Python script used to generate the plots presented in the report. Requires `DatasetPerCustomerTable.csv`.
 - **DatasetPerCustomer.sql** – SQL script used to create `DatasetPerCustomerTable.csv`. Requires the DVD Rental database (`.tar` file), which is not included in this repository.
