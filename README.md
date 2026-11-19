@@ -8,7 +8,7 @@ Key Results & Visualizations
 
 PCA – Customer Segmentation
 
-The PCA visualization provides a two-dimensional representation of the customer segments identified through K-Means clustering. It illustrates the degree of separation and overlap between the identified clusters. The PCA analysis shows overlapping results between groups with different areas of focus on sets of tv genres. Each colour represents a pattern of prefered genres. The total data set included: Average spend per rental, total spend, fraction of total rental per genre. (16 genres total). 
+The PCA visualization provides a two-dimensional representation of the customer segments identified through K-Means clustering. It illustrates the degree of separation and overlap between the identified clusters. The PCA analysis shows overlapping results between groups with different areas of focus on sets of tv genres. Each colour represents a pattern of prefered genres. The total data set included: Average spend per rental, total spend, fraction of total rental per genre. (16 genres total). The PCA analysis is based on those 18 dimensions. 
 
 ![PCA Customer Segmentation](Results/pca_clusters.png)
 
